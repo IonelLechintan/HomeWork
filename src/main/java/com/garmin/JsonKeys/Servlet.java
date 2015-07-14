@@ -5,6 +5,13 @@ public class Servlet {
 	private String servletClass;
 	private InitParam initParam;
 
+	public Servlet(String servletName, String servletClass, InitParam initParam) {
+		super();
+		this.servletName = servletName;
+		this.servletClass = servletClass;
+		this.initParam = initParam;
+	}
+
 	public String getServletName() {
 		return servletName;
 	}

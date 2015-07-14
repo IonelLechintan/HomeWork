@@ -24,7 +24,7 @@ class App {
 			
 			rootNode=mapper.readTree(jParser);
 			
-			
+			http://www.journaldev.com/2324/jackson-json-processing-api-in-java-example-tutorial	
 			//System.out.println(rootNode);
 	
 			
