@@ -1,14 +1,9 @@
 package com.garmin.JsonKeys;
 
-public class TagLib {
+public class Taglib {
+
 	private String taglibUri;
 	private String taglibLocation;
-
-	public TagLib(String taglibUri, String taglibLocation) {
-		super();
-		this.taglibUri = taglibUri;
-		this.taglibLocation = taglibLocation;
-	}
 
 	public String getTaglibUri() {
 		return taglibUri;

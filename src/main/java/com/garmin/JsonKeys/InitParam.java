@@ -1,25 +1,15 @@
 package com.garmin.JsonKeys;
 
 public class InitParam {
+	
 	private String templatePath;
 	private String templateOverridePath;
-	private boolean useJsp;
+	private boolean useJSP;
+	private String logLocation;
 	private int dataLog;
 	private String mailHost;
 	private String mailHostOverride;
-	
 
-	public InitParam(String templatePath, String templateOverridePath,
-			boolean useJsp, int dataLog, String mailHost,
-			String mailHostOverride) {
-		super();
-		this.templatePath = templatePath;
-		this.templateOverridePath = templateOverridePath;
-		this.useJsp = useJsp;
-		this.dataLog = dataLog;
-		this.mailHost = mailHost;
-		this.mailHostOverride = mailHostOverride;
-	}
 
 	public String getTemplatePath() {
 		return templatePath;
@@ -37,12 +27,20 @@ public class InitParam {
 		this.templateOverridePath = templateOverridePath;
 	}
 
-	public boolean isUseJsp() {
-		return useJsp;
+	public boolean isUseJSP() {
+		return useJSP;
 	}
 
-	public void setUseJsp(boolean useJsp) {
-		this.useJsp = useJsp;
+	public void setUseJSP(boolean useJSP) {
+		this.useJSP = useJSP;
+	}
+
+	public String getLogLocation() {
+		return logLocation;
+	}
+
+	public void setLogLocation(String logLocation) {
+		this.logLocation = logLocation;
 	}
 
 	public int getDataLog() {

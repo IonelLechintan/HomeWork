@@ -40,6 +40,7 @@
  
   "taglib": {
     "taglibUri": "cofax.tld",
-    "taglibLocation": "/WEB-INF/tlds/cofax.tld"}
-   }
+    "taglibLocation": "/WEB-INF/tlds/cofax.tld"
+	}
   }
+ }

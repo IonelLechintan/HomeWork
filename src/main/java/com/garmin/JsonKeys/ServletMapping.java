@@ -1,14 +1,9 @@
 package com.garmin.JsonKeys;
 
 public class ServletMapping {
+
 	private String cofaxCDS;
 	private String cofaxEmail;
-
-	public ServletMapping(String cofaxCDS, String cofaxEmail) {
-		super();
-		this.cofaxCDS = cofaxCDS;
-		this.cofaxEmail = cofaxEmail;
-	}
 
 	public String getCofaxCDS() {
 		return cofaxCDS;
